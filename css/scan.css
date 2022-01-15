@@ -1,93 +1,83 @@
 /* screen - scan */
 
-.scan {
-  align-items: flex-start;
-  background-color: var(--white);
-  display: flex;
-  height: 709px;
-  justify-content: center;
-  overflow: hidden;
-  width: 375px;
-}
-
 .scan .overlap-group {
-  height: 730px;
-  margin-top: -10px;
-  position: relative;
-  width: 467px;
+	height: 730px;
+	margin-top: -10px;
+	position: relative;
+	width: 467px;
 }
 
 .scan .shoes-1 {
-  height: 46px;
-  left: 66px;
-  position: absolute;
-  top: 30px;
-  width: 86px;
+	height: 46px;
+	left: 66px;
+	position: absolute;
+	top: 30px;
+	width: 86px;
 }
 
 .scan .button {
-  align-items: center;
-  background-color: var(--royal-blue);
-  border-radius: 4px;
-  display: flex;
-  height: 34px;
-  left: 277px;
-  min-width: 124px;
-  padding: 0 11px;
-  position: absolute;
-  top: 36px;
+	align-items: center;
+	background-color: var(--royal-blue);
+	border-radius: 4px;
+	display: flex;
+	height: 34px;
+	left: 277px;
+	min-width: 124px;
+	padding: 0 11px;
+	position: absolute;
+	top: 36px;
 }
 
 .scan .button-1 {
-  letter-spacing: 0.28px;
-  min-height: 21px;
-  min-width: 74px;
+	letter-spacing: 0.28px;
+	min-height: 21px;
+	min-width: 74px;
 }
 
 .scan .chevron-down {
-  height: 24px;
-  margin-left: 4px;
-  width: 24px;
+	height: 24px;
+	margin-left: 4px;
+	width: 24px;
 }
 
 .scan .shoe-image-1 {
-  height: 730px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  width: 467px;
+	height: 730px;
+	left: 0;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	width: 467px;
 }
 
 .scan .scanning {
-  color: #f2f2f2;
-  font-family: var(--font-family-poppins);
-  font-size: var(--font-size-xl);
-  font-weight: 600;
-  left: 180px;
-  letter-spacing: 0;
-  line-height: 23px;
-  position: absolute;
-  top: 63px;
-  white-space: nowrap;
-  width: 104px;
+	color: #f2f2f2;
+	font-family: var(--font-family-poppins);
+	font-size: var(--font-size-xl);
+	font-weight: 600;
+	left: 180px;
+	letter-spacing: 0;
+	line-height: 23px;
+	position: absolute;
+	top: 63px;
+	white-space: nowrap;
+	width: 104px;
 }
 
 .scan .group-4 {
-  align-items: flex-start;
-  background-color: var(--royal-blue);
-  border-radius: 30.5px;
-  display: flex;
-  height: 61px;
-  justify-content: flex-end;
-  left: 203px;
-  min-width: 61px;
-  padding: 18.0px 14.0px;
-  position: absolute;
-  top: 633px;
+	align-items: flex-start;
+	background-color: var(--royal-blue);
+	border-radius: 30.5px;
+	display: flex;
+	height: 61px;
+	justify-content: flex-end;
+	left: 203px;
+	min-width: 61px;
+	padding: 18px 14px;
+	position: absolute;
+	top: 633px;
 }
 
 .scan .vector {
-  height: 25px;
-  width: 33px;
+	height: 25px;
+	width: 33px;
 }

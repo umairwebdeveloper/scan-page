@@ -1,345 +1,336 @@
 /* screen - home0 */
 
-.home0 {
-  align-items: flex-start;
-  background-color: var(--white);
-  display: flex;
-  height: 1764px;
-  padding: 0 27px;
-  width: 1512px;
-}
-
 .home0 .flex-col {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  margin-top: 31px;
-  min-height: 1123px;
-  width: 798px;
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	margin-top: 31px;
+	min-height: 1123px;
+	width: 798px;
 }
 
 .home0 .shoes-1 {
-  height: 86px;
-  margin-left: 42.5px;
-  width: 158px;
+	height: 86px;
+	margin-left: 42.5px;
+	width: 158px;
 }
 
 .home0 .title {
-  align-self: center;
-  color: transparent;
-  font-family: var(--font-family-poppins);
-  font-size: var(--font-size-xxxl);
-  font-weight: 600;
-  letter-spacing: 0;
-  line-height: 91px;
-  margin-right: 20.0px;
-  margin-top: 152px;
-  min-height: 182px;
-  width: 692px;
+	align-self: center;
+	color: transparent;
+	font-family: var(--font-family-poppins);
+	font-size: var(--font-size-xxxl);
+	font-weight: 600;
+	letter-spacing: 0;
+	line-height: 91px;
+	margin-right: 20px;
+	margin-top: 152px;
+	min-height: 182px;
+	width: 692px;
 }
 
 .home0 .check-your-feet-size {
-  align-self: center;
-  color: var(--mountain-mist-2);
-  font-family: var(--font-family-poppins);
-  font-size: var(--font-size-xl);
-  font-weight: 400;
-  letter-spacing: 0.40px;
-  margin-right: 51.0px;
-  margin-top: 19px;
-  min-height: 60px;
-  width: 661px;
+	align-self: center;
+	color: var(--mountain-mist-2);
+	font-family: var(--font-family-poppins);
+	font-size: var(--font-size-xl);
+	font-weight: 400;
+	letter-spacing: 0.4px;
+	margin-right: 51px;
+	margin-top: 19px;
+	min-height: 60px;
+	width: 661px;
 }
 
 .home0 .button-1 {
-  align-items: center;
-  background-color: var(--royal-blue);
-  border-radius: 4px;
-  display: flex;
-  height: 59px;
-  margin-left: 43px;
-  margin-top: 19px;
-  min-width: 154px;
-  padding: 0 24px;
+	align-items: center;
+	background-color: var(--royal-blue);
+	border-radius: 4px;
+	display: flex;
+	height: 59px;
+	margin-left: 43px;
+	margin-top: 19px;
+	min-width: 154px;
+	padding: 0 24px;
 }
 
 .home0 .button {
-  letter-spacing: 0.36px;
-  min-height: 27px;
-  min-width: 106px;
+	letter-spacing: 0.36px;
+	min-height: 27px;
+	min-width: 106px;
 }
 
 .home0 .overlap-group4 {
-  height: 786px;
-  margin-top: 235px;
-  position: relative;
-  width: 798px;
+	height: 786px;
+	margin-top: 235px;
+	position: relative;
+	width: 798px;
 }
 
 .home0 .overlap-group-1 {
-  height: 786px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 573px;
+	height: 786px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 573px;
 }
 
 .home0 .ellipse-4 {
-  background-color: var(--royal-blue);
-  border-radius: 286.5px;
-  height: 573px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 573px;
+	background-color: var(--royal-blue);
+	border-radius: 286.5px;
+	height: 573px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 573px;
 }
 
 .home0 .rectangle {
-  height: 786px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  width: 418px;
+	height: 786px;
+	left: 0;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	width: 418px;
 }
 
 .home0 .ellipse-34 {
-  background-color: var(--yellow-orange);
-  border-radius: 16.5px;
-  height: 33px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 33px;
+	background-color: var(--yellow-orange);
+	border-radius: 16.5px;
+	height: 33px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 33px;
 }
 
 .home0 .ellipse-36 {
-  background-color: var(--royal-blue);
-  border-radius: 30px;
-  height: 60px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 60px;
+	background-color: var(--royal-blue);
+	border-radius: 30px;
+	height: 60px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 60px;
 }
 
 .home0 .frame-24 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  left: 150px;
-  min-height: 311px;
-  position: absolute;
-  top: 0;
-  width: 648px;
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	left: 150px;
+	min-height: 311px;
+	position: absolute;
+	top: 0;
+	width: 648px;
 }
 
 .home0 .how-it-works {
-  color: var(--log-cabin);
-  font-family: var(--font-family-poppins);
-  font-size: 40px;
-  font-weight: 600;
-  letter-spacing: 0.80px;
-  line-height: 60px;
-  min-height: 60px;
-  white-space: nowrap;
+	color: var(--log-cabin);
+	font-family: var(--font-family-poppins);
+	font-size: 40px;
+	font-weight: 600;
+	letter-spacing: 0.8px;
+	line-height: 60px;
+	min-height: 60px;
+	white-space: nowrap;
 }
 
 .home0 .overlap-group-container {
-  height: 72px;
-  margin-top: 40px;
-  position: relative;
-  width: 514px;
+	height: 72px;
+	margin-top: 40px;
+	position: relative;
+	width: 514px;
 }
 
 .home0 .overlap-group {
-  height: 72px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 514px;
+	height: 72px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 514px;
 }
 
 .home0 .take-picture-of-your {
-  left: 0;
-  letter-spacing: 0.40px;
-  position: absolute;
-  top: 0;
-  width: 514px;
+	left: 0;
+	letter-spacing: 0.4px;
+	position: absolute;
+	top: 0;
+	width: 514px;
 }
 
 .home0 .take-picture-of-your-feet {
-  left: 0;
-  letter-spacing: 0.48px;
-  line-height: 36px;
-  position: absolute;
-  top: 0;
-  white-space: nowrap;
-  width: 315px;
+	left: 0;
+	letter-spacing: 0.48px;
+	line-height: 36px;
+	position: absolute;
+	top: 0;
+	white-space: nowrap;
+	width: 315px;
 }
 
 .home0 .icon-1 {
-  align-items: center;
-  background-color: var(--royal-blue-2);
-  border-radius: 72px;
-  display: flex;
-  height: 72px;
-  left: 0;
-  min-width: 72px;
-  padding: 0 20px;
-  position: absolute;
-  top: 0;
+	align-items: center;
+	background-color: var(--royal-blue-2);
+	border-radius: 72px;
+	display: flex;
+	height: 72px;
+	left: 0;
+	min-width: 72px;
+	padding: 0 20px;
+	position: absolute;
+	top: 0;
 }
 
 .home0 .camera_enhance {
-  height: 32px;
-  width: 32px;
+	height: 32px;
+	width: 32px;
 }
 
 .home0 .you-can-take-the-pic {
-  left: 0;
-  letter-spacing: 0.40px;
-  position: absolute;
-  top: 0;
-  width: 514px;
+	left: 0;
+	letter-spacing: 0.4px;
+	position: absolute;
+	top: 0;
+	width: 514px;
 }
 
 .home0 .with-or-without-socks {
-  left: 0;
-  letter-spacing: 0.48px;
-  line-height: 36px;
-  position: absolute;
-  top: 0;
-  white-space: nowrap;
-  width: 315px;
+	left: 0;
+	letter-spacing: 0.48px;
+	line-height: 36px;
+	position: absolute;
+	top: 0;
+	white-space: nowrap;
+	width: 315px;
 }
 
 .home0 .icon {
-  align-items: center;
-  background-color: var(--royal-blue-2);
-  border-radius: 72px;
-  display: flex;
-  height: 72px;
-  left: 0;
-  min-width: 72px;
-  padding: 0 19px;
-  position: absolute;
-  top: 0;
+	align-items: center;
+	background-color: var(--royal-blue-2);
+	border-radius: 72px;
+	display: flex;
+	height: 72px;
+	left: 0;
+	min-width: 72px;
+	padding: 0 19px;
+	position: absolute;
+	top: 0;
 }
 
 .home0 .socks {
-  height: 34px;
-  width: 34px;
+	height: 34px;
+	width: 34px;
 }
 
 .home0 .see-the-shoe-size-in {
-  left: 0;
-  letter-spacing: 0.40px;
-  position: absolute;
-  top: 0;
-  width: 514px;
+	left: 0;
+	letter-spacing: 0.4px;
+	position: absolute;
+	top: 0;
+	width: 514px;
 }
 
 .home0 .select-your-shoe-size {
-  left: 0;
-  letter-spacing: 0.48px;
-  line-height: 36px;
-  position: absolute;
-  top: 0;
-  white-space: nowrap;
-  width: 315px;
+	left: 0;
+	letter-spacing: 0.48px;
+	line-height: 36px;
+	position: absolute;
+	top: 0;
+	white-space: nowrap;
+	width: 315px;
 }
 
 .home0 .shoe-1 {
-  height: 32px;
-  width: 34px;
+	height: 32px;
+	width: 34px;
 }
 
 .home0 .button-2 {
-  align-items: center;
-  background-color: var(--royal-blue);
-  border-radius: 4px;
-  display: flex;
-  height: 59px;
-  margin-top: 80px;
-  min-width: 154px;
-  padding: 0 24px;
+	align-items: center;
+	background-color: var(--royal-blue);
+	border-radius: 4px;
+	display: flex;
+	height: 59px;
+	margin-top: 80px;
+	min-width: 154px;
+	padding: 0 24px;
 }
 
 .home0 .image {
-  align-items: flex-end;
-  display: flex;
-  height: 0;
-  justify-content: flex-end;
-  margin-left: 3px;
-  margin-top: 149px;
-  min-width: 0;
+	align-items: flex-end;
+	display: flex;
+	height: 0;
+	justify-content: flex-end;
+	margin-left: 3px;
+	margin-top: 149px;
+	min-width: 0;
 }
 
 .home0 .overlap-group-2 {
-  height: 879px;
-  margin-bottom: -702px;
-  position: relative;
-  width: 853px;
+	height: 879px;
+	margin-bottom: -702px;
+	position: relative;
+	width: 853px;
 }
 
 .home0 .ellipse-5 {
-  background-color: var(--royal-blue);
-  border-radius: 293px;
-  height: 586px;
-  left: 267px;
-  position: absolute;
-  top: 293px;
-  width: 586px;
+	background-color: var(--royal-blue);
+	border-radius: 293px;
+	height: 586px;
+	left: 267px;
+	position: absolute;
+	top: 293px;
+	width: 586px;
 }
 
 .home0 .mask-group {
-  height: 586px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 534px;
+	height: 586px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 534px;
 }
 
 .home0 .vector-1 {
-  height: 107px;
-  left: 247px;
-  position: absolute;
-  top: 644px;
-  width: 105px;
+	height: 107px;
+	left: 247px;
+	position: absolute;
+	top: 644px;
+	width: 105px;
 }
 
 .home0 .ellipse-34-1 {
-  background-color: var(--yellow-orange);
-  border-radius: 16.5px;
-  height: 33px;
-  left: 309px;
-  position: absolute;
-  top: 348px;
-  width: 33px;
+	background-color: var(--yellow-orange);
+	border-radius: 16.5px;
+	height: 33px;
+	left: 309px;
+	position: absolute;
+	top: 348px;
+	width: 33px;
 }
 
 .home0 .rectangle-1 {
-  height: 619px;
-  left: 325px;
-  position: absolute;
-  top: 177px;
-  width: 474px;
+	height: 619px;
+	left: 325px;
+	position: absolute;
+	top: 177px;
+	width: 474px;
 }
 
 .home0 .ellipse-36-1 {
-  background-color: var(--royal-blue);
-  border-radius: 30px;
-  height: 60px;
-  left: 784px;
-  position: absolute;
-  top: 796px;
-  width: 60px;
+	background-color: var(--royal-blue);
+	border-radius: 30px;
+	height: 60px;
+	left: 784px;
+	position: absolute;
+	top: 796px;
+	width: 60px;
 }
 
 .home0 .button-3 {
-  height: 59px;
-  margin-left: 431px;
-  margin-top: 53px;
-  width: 183px;
+	height: 59px;
+	margin-left: 431px;
+	margin-top: 53px;
+	width: 183px;
 }
