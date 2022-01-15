@@ -1,0 +1,223 @@
+/* screen - scan-complete-not-found */
+
+.scan-complete-not-found {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 767px;
+  overflow: hidden;
+  width: 375px;
+}
+
+.scan-complete-not-found .rectangle-4 {
+  background-color: var(--white);
+  box-shadow: 0px 4px 4px #00000040;
+  height: 83px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 375px;
+  z-index: 6;
+}
+
+.scan-complete-not-found .shoes-1 {
+  height: 46px;
+  left: 20px;
+  position: fixed;
+  top: 20px;
+  width: 86px;
+  z-index: 8;
+}
+
+.scan-complete-not-found .button {
+  align-items: center;
+  background-color: var(--royal-blue);
+  border-radius: 4px;
+  display: flex;
+  height: 34px;
+  left: 231px;
+  min-width: 124px;
+  padding: 0 11px;
+  position: fixed;
+  top: 26px;
+  z-index: 7;
+}
+
+.scan-complete-not-found .button-1 {
+  letter-spacing: 0.28px;
+  min-height: 21px;
+  min-width: 74px;
+}
+
+.scan-complete-not-found .chevron-down {
+  height: 24px;
+  margin-left: 4px;
+  width: 24px;
+}
+
+.scan-complete-not-found .frame-31 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 18px;
+  margin-top: 85px;
+  min-width: 106px;
+  z-index: 5;
+}
+
+.scan-complete-not-found .chevron-left {
+  height: 15px;
+  width: 14px;
+}
+
+.scan-complete-not-found .back-to-webshop {
+  letter-spacing: 0.20px;
+  margin-left: 2px;
+  min-height: 15px;
+}
+
+.scan-complete-not-found .scan-complete {
+  letter-spacing: 0;
+  line-height: 23px;
+  margin-left: 20px;
+  margin-top: 9px;
+  min-height: 23px;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.scan-complete-not-found .group-7 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  margin-top: 16px;
+  min-width: 291px;
+  z-index: 3;
+}
+
+.scan-complete-not-found .group-container {
+  height: 326px;
+  position: relative;
+  width: 291px;
+}
+
+.scan-complete-not-found .group-5 {
+  align-items: center;
+  background-image: url(../img/image-2@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 326px;
+  left: 0;
+  min-width: 291px;
+  padding: 0 2px;
+  position: absolute;
+  top: 0;
+}
+
+.scan-complete-not-found .image-1 {
+  height: 320px;
+  object-fit: cover;
+  width: 287px;
+}
+
+.scan-complete-not-found .group-6 {
+  align-items: flex-end;
+  background-color: var(--royal-blue);
+  border-radius: 30.5px;
+  display: flex;
+  height: 61px;
+  justify-content: flex-end;
+  left: 115px;
+  min-width: 61px;
+  padding: 11px;
+  position: absolute;
+  top: 133px;
+}
+
+.scan-complete-not-found .checkmark {
+  height: 37px;
+  width: 37px;
+}
+
+.scan-complete-not-found .referrer-container {
+  align-self: flex-end;
+  height: 88px;
+  margin-right: -53px;
+  position: relative;
+  width: 420px;
+  z-index: 4;
+}
+
+.scan-complete-not-found .referrer {
+  align-items: flex-end;
+  display: flex;
+  height: 66px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 420px;
+}
+
+.scan-complete-not-found .overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 20px;
+  display: flex;
+  height: 326px;
+  margin-bottom: -259px;
+  margin-left: -1px;
+  min-width: 859px;
+  padding: 26px 12px;
+}
+
+.scan-complete-not-found .referrer-1 {
+  letter-spacing: 0.10px;
+  min-height: 24px;
+}
+
+.scan-complete-not-found .referrer-2 {
+  color: #eb5757;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-weight: 600;
+  left: 13px;
+  letter-spacing: 0.10px;
+  position: absolute;
+  top: 64px;
+}
+
+.scan-complete-not-found .flex-row {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  margin-right: 12.0px;
+  margin-top: 25px;
+  min-width: 321px;
+  z-index: 1;
+}
+
+.scan-complete-not-found .frame-30 {
+  align-items: center;
+  background-color: var(--royal-blue);
+  border-radius: 4px;
+  display: flex;
+  height: 41px;
+  min-width: 184px;
+  padding: 0 10px;
+}
+
+.scan-complete-not-found .not-good-scan-again {
+  letter-spacing: 0.28px;
+  min-height: 21px;
+  min-width: 164px;
+}
+
+.scan-complete-not-found .googlecouk {
+  letter-spacing: 0.20px;
+  margin-left: 23px;
+  min-height: 21px;
+  min-width: 114px;
+  text-decoration: underline;
+}

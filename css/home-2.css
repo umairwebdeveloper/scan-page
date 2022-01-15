@@ -1,0 +1,328 @@
+/* screen - home-2 */
+
+.home-2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1764px;
+  overflow: hidden;
+  width: 1512px;
+}
+
+.home-2 .overlap-group2 {
+  height: 1577px;
+  margin-left: 27px;
+  margin-top: 52px;
+  position: relative;
+  width: 1643px;
+  z-index: 1;
+}
+
+.home-2 .overlap-group1 {
+  height: 1577px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1643px;
+}
+
+.home-2 .button-1 {
+  height: 59px;
+  left: 1232px;
+  position: absolute;
+  top: 1px;
+  width: 183px;
+}
+
+.home-2 .check-your-feet-size {
+  color: transparent;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxl);
+  font-weight: 600;
+  left: 43px;
+  letter-spacing: 0;
+  line-height: 91px;
+  position: absolute;
+  top: 217px;
+  width: 774px;
+}
+
+.home-2 .check-your-feet-size.animate-enter {
+  animation: animate-enter-frames 0.90s ease-in-out 0.00s 1 normal forwards;
+}
+
+@keyframes animate-enter-frames {
+  from{}
+to{}
+}
+
+.home-2 .image {
+  height: 795px;
+  left: 741px;
+  position: absolute;
+  top: 1px;
+  width: 730px;
+}
+
+.home-2 .frame-25 {
+  align-items: center;
+  display: flex;
+  height: 786px;
+  left: 0;
+  min-width: 1408px;
+  position: absolute;
+  top: 791px;
+}
+
+.home-2 .overlap-group {
+  height: 786px;
+  position: relative;
+  width: 610px;
+}
+
+.home-2 .ellipse-4 {
+  background-color: var(--royal-blue);
+  border-radius: 286.5px;
+  height: 573px;
+  left: 37px;
+  position: absolute;
+  top: 124px;
+  width: 573px;
+}
+
+.home-2 .rectangle {
+  height: 786px;
+  left: 115px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 418px;
+}
+
+.home-2 .ellipse-34 {
+  background-color: var(--yellow-orange);
+  border-radius: 16.5px;
+  height: 33px;
+  left: 528px;
+  position: absolute;
+  top: 137px;
+  transform: rotate(105.00deg);
+  width: 33px;
+}
+
+.home-2 .ellipse-36 {
+  background-color: var(--royal-blue);
+  border-radius: 30px;
+  height: 60px;
+  left: 7px;
+  position: absolute;
+  top: 590px;
+  transform: rotate(105.00deg);
+  width: 60px;
+}
+
+.home-2 .frame-24 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  min-height: 593px;
+  width: 648px;
+}
+
+.home-2 .how-it-works {
+  color: var(--log-cabin);
+  font-family: var(--font-family-poppins);
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 0.80px;
+  line-height: 60px;
+  min-height: 60px;
+  white-space: nowrap;
+}
+
+.home-2 .frame-23 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  min-height: 394px;
+  width: 619px;
+}
+
+.home-2 .feature {
+  align-items: flex-start;
+  display: flex;
+  height: 104px;
+  min-width: 623px;
+}
+
+.home-2 .icon-1 {
+  align-items: center;
+  background-color: var(--royal-blue-2);
+  border-radius: 72px;
+  display: flex;
+  height: 72px;
+  min-width: 72px;
+  padding: 0 20px;
+}
+
+.home-2 .camera_enhance {
+  height: 33px;
+  width: 32px;
+}
+
+.home-2 .x-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 33px;
+  min-height: 104px;
+  width: 514px;
+}
+
+.home-2 .take-picture-of-your-feet {
+  letter-spacing: 0.48px;
+  line-height: 36px;
+  min-height: 36px;
+  white-space: nowrap;
+}
+
+.home-2 .take-picture-of-your {
+  letter-spacing: 0.40px;
+  margin-top: 8px;
+  min-height: 60px;
+  width: 514px;
+}
+
+.home-2 .feature-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 74px;
+  margin-top: 56px;
+  min-width: 623px;
+}
+
+.home-2 .icon {
+  align-items: center;
+  background-color: var(--royal-blue-2);
+  border-radius: 72px;
+  display: flex;
+  height: 72px;
+  min-width: 72px;
+  padding: 0 19px;
+}
+
+.home-2 .socks {
+  height: 35px;
+  width: 34px;
+}
+
+.home-2 .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 33px;
+  min-height: 74px;
+  width: 514px;
+}
+
+.home-2 .with-or-without-socks {
+  letter-spacing: 0.48px;
+  line-height: 36px;
+  min-height: 36px;
+  white-space: nowrap;
+}
+
+.home-2 .you-can-take-the-pic {
+  letter-spacing: 0.40px;
+  margin-top: 8px;
+  min-height: 30px;
+  width: 514px;
+}
+
+.home-2 .feature-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 104px;
+  margin-top: 56px;
+  min-width: 623px;
+}
+
+.home-2 .shoe-1 {
+  height: 33px;
+  width: 34px;
+}
+
+.home-2 .select-your-shoe-size {
+  letter-spacing: 0.48px;
+  line-height: 36px;
+  min-height: 36px;
+  white-space: nowrap;
+}
+
+.home-2 .see-the-shoe-size-in {
+  letter-spacing: 0.40px;
+  margin-top: 8px;
+  min-height: 60px;
+  width: 514px;
+}
+
+.home-2 .button-2 {
+  align-items: center;
+  background-color: var(--royal-blue);
+  border-radius: 4px;
+  display: flex;
+  height: 59px;
+  margin-top: 40px;
+  min-width: 154px;
+  padding: 0 24px;
+}
+
+.home-2 .button {
+  letter-spacing: 0.36px;
+  min-height: 27px;
+  min-width: 106px;
+}
+
+.home-2 .rectangle-1 {
+  height: 405px;
+  left: 567px;
+  position: absolute;
+  top: 0;
+  width: 1076px;
+}
+
+.home-2 .check-your-size-by-u {
+  color: var(--mountain-mist-2);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  left: 43px;
+  letter-spacing: 0.40px;
+  position: absolute;
+  top: 418px;
+  width: 661px;
+}
+
+.home-2 .button-3 {
+  align-items: center;
+  background-color: var(--royal-blue);
+  border-radius: 4px;
+  display: flex;
+  height: 59px;
+  left: 43px;
+  min-width: 154px;
+  padding: 0 24px;
+  position: absolute;
+  top: 497px;
+}
+
+.home-2 .shoes-1 {
+  height: 86px;
+  left: 70px;
+  position: fixed;
+  top: 31px;
+  width: 158px;
+  z-index: 2;
+}

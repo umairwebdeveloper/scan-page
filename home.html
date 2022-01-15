@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="home" />
+    <div class="container-center-horizontal">
+      <div class="home screen">
+        <div class="rectangle-4 animate-enter18" show-on-scroll></div>
+        <img class="shoes-1 animate-enter19" show-on-scroll src="img/shoes-1@2x.svg" />
+        <div class="button animate-enter20" show-on-scroll>
+          <div class="button-1 poppins-semi-bold-white-14px">Language</div>
+          <img class="chevron-down" src="img/chevron-down-2@2x.svg" />
+        </div>
+        <div class="check-your-feet-size animate-enter11" show-on-scroll>
+          <span class="poppins-semi-bold-log-cabin-20px">Check your </span><span class="span-1">feet</span
+          ><span class="poppins-semi-bold-log-cabin-20px">&nbsp;</span><span class="span-1">size</span
+          ><span class="poppins-semi-bold-log-cabin-20px"> by using our service</span>
+        </div>
+        <div class="overlap-group3">
+          <img class="image animate-enter16" show-on-scroll src="img/image@1x.png" />
+          <p class="check-your-size-by-u animate-enter17" show-on-scroll>
+            Check your size by using our service that connect foot and shoe fitting together
+          </p>
+        </div>
+        <div class="how-it-works animate-enter12" show-on-scroll>How It Works?</div>
+        <div class="frame-26 animate-enter13" show-on-scroll>
+          <div class="feature">
+            <div class="icon"><img class="camera_enhance" src="img/camera-enhance-1@2x.svg" /></div>
+            <div class="take-picture-of-your-container">
+              <p class="take-picture-of-your-feet poppins-semi-bold-log-cabin-16px">Take Picture Of Your Feet</p>
+              <p class="take-picture-of-your poppins-normal-mountain-mist-14px">
+                Take picture of your feet close to each other, exactly like shown in the picture.
+              </p>
+            </div>
+          </div>
+          <div class="feature-1">
+            <div class="icon-1"><img class="socks" src="img/socks-1@2x.svg" /></div>
+            <div class="overlap-group">
+              <p class="you-can-take-the-pic poppins-normal-mountain-mist-14px">
+                You can take the picture with or without socks.
+              </p>
+              <div class="with-or-without-socks poppins-semi-bold-log-cabin-16px">With or without socks</div>
+            </div>
+          </div>
+          <div class="frame-23">
+            <div class="icon-2"><img class="shoe-1" src="img/shoe-1-1@2x.svg" /></div>
+            <div class="shoe-size-container">
+              <p class="see-the-shoe-size-in poppins-normal-mountain-mist-14px">
+                See the shoe size in your current shoe label. You can select from EU, US and UK sizing system.
+              </p>
+              <div class="select-your-shoe-size poppins-semi-bold-log-cabin-16px">Select your shoe size</div>
+            </div>
+          </div>
+        </div>
+        <div class="button-2 animate-enter10" show-on-scroll>
+          <div class="button-3 poppins-semi-bold-white-14px">Check Now</div>
+        </div>
+        <div class="overlap-group2">
+          <p class="googlecouk poppins-normal-mountain-mist-12px animate-enter14" show-on-scroll>
+            For an accurate scan hold phone 30 cm away from your feet
+          </p>
+          <div class="image-1 animate-enter15" show-on-scroll>
+            <div class="overlap-group1">
+              <div class="ellipse-4"></div>
+              <img class="rectangle" src="img/rectangle-2@2x.png" />
+              <div class="ellipse-34"></div>
+              <div class="ellipse-36"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function ShowOnScroll() {
+        this.toShow = [];
+        this.nextEventY = undefined;
+      }
+
+      ShowOnScroll.prototype.show = function (e) {
+        e.style.display = "";
+      };
+
+      ShowOnScroll.prototype.hide = function (e) {
+        e.style.display = "none";
+      };
+
+      ShowOnScroll.prototype.getTop = function (e) {
+        if (e.Top != undefined && e.Top != 0) {
+          return e.Top;
+        }
+        var top = 0;
+        var iter = e;
+        do {
+          top += iter.offsetTop || 0;
+          iter = iter.offsetParent;
+        } while (iter);
+        e.Top = top;
+        return top;
+      };
+
+      ShowOnScroll.prototype.onScroll = function () {
+        var screenBottom = window.pageYOffset + window.innerHeight;
+        if (this.nextEventY == undefined || this.nextEventY > screenBottom) {
+          return;
+        }
+        this.nextEventY = undefined;
+        for (var i = 0; i < this.toShow.length; i++) {
+          var e = this.toShow[i];
+          var top = this.getTop(e);
+          if (top < screenBottom) {
+            this.show(e);
+            this.toShow.shift();
+            i--;
+          } else {
+            this.nextEventY = top;
+            break;
+          }
+        }
+      };
+
+      ShowOnScroll.prototype.resetScrolling = function () {
+        // Clear state
+        var screenBottom = window.pageYOffset + window.innerHeight;
+        for (var i = 0; i < this.toShow.length; i++) {
+          var e = this.toShow[i];
+          this.show(e);
+        }
+        this.toShow = [];
+        this.nextEventY == undefined;
+
+        // Collect items
+        var itemsToShowOnScroll = Array.prototype.slice.call(document.getElementsByTagName("*"));
+        itemsToShowOnScroll = itemsToShowOnScroll.filter(function (e) {
+          return e.getAttribute("show-on-scroll") != undefined;
+        });
+        var getTop = this.getTop;
+        itemsToShowOnScroll.sort(function (a, b) {
+          return getTop(a) - getTop(b);
+        });
+        for (var i = 0; i < itemsToShowOnScroll.length; i++) {
+          var e = itemsToShowOnScroll[i];
+          var top = this.getTop(e);
+          if (top < screenBottom) {
+            continue;
+          }
+          this.toShow.push(e);
+          this.hide(e);
+          this.nextEventY = this.nextEventY != undefined ? this.nextEventY : top;
+        }
+      };
+
+      ShowOnScroll.prototype.handleEvent = function (e) {
+        switch (e.type) {
+          case "scroll":
+            this.onScroll();
+            break;
+          case "resize":
+            this.resetScrolling();
+            break;
+        }
+      };
+
+      ShowOnScroll.prototype.init = function () {
+        this.resetScrolling();
+        window.addEventListener("scroll", this);
+        window.addEventListener("resize", this);
+      };
+
+      // After anima-src
+      setTimeout(function () {
+        var instShowOnScroll = new ShowOnScroll();
+        instShowOnScroll.init();
+      }, 250);
+    </script>
+  </body>
+</html>
