@@ -53,26 +53,26 @@
 	z-index: 7;
 }
 
-.main .shoes-1 {
+.nav .shoefitr-logo {
 	display: block;
 	height: 46px;
 	opacity: 0;
-	transform: translate(0, 25px);
+	transform: translate(0, -25px);
 	width: 86px;
 	z-index: 8;
 }
 
-.main .shoes-1.animate-enter19 {
+.nav .shoefitr-logo.animate-enter19 {
 	animation: animate-enter19-frames 0.9s ease-in-out 0s 1 normal forwards;
 	display: block;
 	opacity: 0;
-	transform: translate(0, 25px);
+	transform: translate(0, -25px);
 }
 
 @keyframes animate-enter19-frames {
 	from {
 		opacity: 0;
-		transform: translate(0, 25px);
+		transform: translate(0, -25px);
 	}
 	to {
 		opacity: 1;
@@ -80,26 +80,26 @@
 	}
 }
 
-.main .button {
+.nav .button {
 	background-color: var(--royal-blue);
 	border-radius: 4px;
 	height: 34px;
 	opacity: 0;
-	transform: translate(0, 25px);
+	transform: translate(0, -25px);
 	width: 124px;
 	z-index: 9;
 }
 
-.main .button.animate-enter20 {
+.nav .button.animate-enter20 {
 	animation: animate-enter20-frames 0.9s ease-in-out 0s 1 normal forwards;
 	opacity: 0;
-	transform: translate(0, 25px);
+	transform: translate(0, -25px);
 }
 
 @keyframes animate-enter20-frames {
 	from {
 		opacity: 0;
-		transform: translate(0, 25px);
+		transform: translate(0, -25px);
 	}
 	to {
 		opacity: 1;
@@ -107,9 +107,17 @@
 	}
 }
 
-.main .button-1 {
+.nav .language-button {
 	left: 11px;
 	letter-spacing: 0.28px;
 	position: absolute;
 	top: 10px;
+}
+
+.nav .language-chevron-down {
+	height: 24px;
+	left: 89px;
+	position: absolute;
+	top: 5px;
+	width: 24px;
 }
