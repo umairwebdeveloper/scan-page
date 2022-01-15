@@ -21,7 +21,7 @@
 		<input type="hidden" id="anPageName" name="page" value="home" />
 		<div class="container-center-horizontal">
 			<div class="main home screen">
-				<div class="nav animate-enter18" show-on-scroll>
+				<div id="navbar" class="nav animate-enter18" show-on-scroll>
 					<img
 						class="shoes-1 animate-enter19"
 						show-on-scroll
@@ -82,9 +82,7 @@
 							>
 								Take Picture Of Your Feet
 							</p>
-							<p
-								class="info poppins-normal-mountain-mist-14px"
-							>
+							<p class="info poppins-normal-mountain-mist-14px">
 								Take picture of your feet close to each other,
 								exactly like shown in the picture.
 							</p>
@@ -100,9 +98,7 @@
 							>
 								With or without socks
 							</div>
-							<p
-								class="info poppins-normal-mountain-mist-14px"
-							>
+							<p class="info poppins-normal-mountain-mist-14px">
 								You can take the picture with or without socks.
 							</p>
 						</div>
@@ -117,9 +113,7 @@
 							>
 								Select your shoe size
 							</div>
-							<p
-								class="info poppins-normal-mountain-mist-14px"
-							>
+							<p class="info poppins-normal-mountain-mist-14px">
 								See the shoe size in your current shoe label.
 								You can select from EU, US and UK sizing system.
 							</p>
@@ -154,6 +148,16 @@
 			</div>
 		</div>
 		<script>
+			var prevScrollpos = window.pageYOffset;
+			window.onscroll = function () {
+				var currentScrollPos = window.pageYOffset;
+				if (prevScrollpos > currentScrollPos) {
+					document.getElementById("navbar").style.top = "0";
+				} else {
+					document.getElementById("navbar").style.top = "-88px";
+				}
+				prevScrollpos = currentScrollPos;
+			};
 			function ShowOnScroll() {
 				this.toShow = [];
 				this.nextEventY = undefined;
