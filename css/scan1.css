@@ -113,36 +113,10 @@
 	width: 155px;
 }
 
-.scan1 .vector-1 {
-	height: 29px;
-	left: 0;
-	position: absolute;
-	top: 93px;
-	width: 29px;
-}
-
-.scan1 .ellipse-34 {
-	background-color: var(--yellow-orange);
-	border-radius: 4.37px;
-	height: 9px;
-	left: 17px;
-	position: absolute;
-	top: 15px;
-	width: 9px;
-}
-
-.scan1 .ellipse-36 {
-	background-color: var(--royal-blue);
-	border-radius: 7.94px;
-	height: 16px;
-	left: 143px;
-	position: absolute;
-	top: 133px;
-	width: 16px;
-}
-
 .scan1 .shoes-snickers-1 {
 	height: 220px;
+	margin-left: -40px;
+	margin-right: -15px;
 	opacity: 0;
 	transform: translate(25px, 0);
 	width: 185px;
@@ -242,7 +216,7 @@
 
 .scan1 .line-1-1 {
 	height: 1px;
-	margin-top: 4px;
+	margin-top: 6px;
 }
 
 .scan1 .radio-button-container {

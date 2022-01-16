@@ -45,12 +45,12 @@
 
 .scan-complete-v2 .frame-31 {
 	height: 15px;
-	margin-left: 18px;
-	margin-top: 2px;
+	margin-top: 4px;
 	opacity: 0;
-	position: relative;
 	transform: translate(-25px, 0);
-	width: 106px;
+	display: flex;
+	flex-direction: row;
+	align-self: flex-start;
 	z-index: 5;
 }
 
@@ -73,25 +73,19 @@
 
 .scan-complete-v2 .chevron-left {
 	height: 15px;
-	left: 0;
-	position: absolute;
-	top: 0;
 	width: 14px;
 }
 
 .scan-complete-v2 .back-to-webshop {
-	left: 16px;
 	letter-spacing: 0.2px;
-	position: absolute;
-	top: 0;
+	margin-top: 2.5px;
 }
 
 .scan-complete-v2 .scan-complete {
 	letter-spacing: 0;
 	line-height: 23px;
-	margin-left: 20px;
 	margin-top: 9px;
-	min-height: 23px;
+	align-self: flex-start;
 	opacity: 0;
 	transform: translate(-25px, 0);
 	white-space: nowrap;
@@ -187,14 +181,14 @@
 }
 
 .scan-complete-v2 .referrer {
-	align-self: flex-end;
-	height: 206px;
-	margin-right: -53px;
 	opacity: 0;
 	overflow: hidden;
 	transform: translate(-25px, 0);
-	width: 420px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
 	z-index: 4;
+	margin-top: 25px;
 }
 
 .scan-complete-v2 .referrer.animate-enter24 {
@@ -217,94 +211,70 @@
 .scan-complete-v2 .overlap-group1 {
 	align-items: flex-start;
 	background-color: var(--white);
-	border-radius: 20px;
 	display: flex;
 	flex-direction: column;
-	left: -1px;
-	min-height: 326px;
-	padding: 26px 12px;
-	position: relative;
-	top: -1px;
-	width: 859px;
+	width: 100%;
 }
 
 .scan-complete-v2 .referrer-1 {
 	letter-spacing: 0.1px;
-	min-height: 24px;
 }
 
 .scan-complete-v2 .group-8 {
-	align-items: flex-start;
 	display: flex;
 	flex-direction: column;
 	margin-left: 1px;
 	margin-top: 13px;
-	min-height: 130px;
-	width: 310px;
+	width: 100%;
 }
 
 .scan-complete-v2 .referrer-2 {
 	letter-spacing: 0.1px;
 	margin-left: 1px;
-	min-height: 24px;
 }
 
 .scan-complete-v2 .googlecouk {
 	letter-spacing: 0.2px;
 	margin-left: 1px;
 	margin-top: 4px;
-	min-height: 21px;
 }
 
 .scan-complete-v2 .flex-row {
-	align-items: flex-end;
 	display: flex;
-	height: 61px;
 	margin-top: 20px;
-	min-width: 298px;
+	flex-direction: row;
 }
 
 .scan-complete-v2 .googlecouk-container {
-	align-items: flex-start;
 	display: flex;
 	flex-direction: column;
-	min-height: 57px;
-	width: 102px;
+	width: 100%;
 }
 
 .scan-complete-v2 .googlecouk-1 {
 	letter-spacing: 0.2px;
-	min-height: 21px;
 }
 
 .scan-complete-v2 .googlecouk-2 {
 	letter-spacing: 0.2px;
 	margin-left: 1px;
 	margin-top: 15px;
-	min-height: 21px;
 }
 
 .scan-complete-v2 .googlecouk-container-1 {
-	align-items: flex-end;
 	display: flex;
 	flex-direction: column;
-	margin-left: 137px;
-	min-height: 61px;
-	width: 59px;
+	width: 100%;
 }
 
 .scan-complete-v2 .googlecouk-3 {
 	letter-spacing: 0.2px;
 	margin-right: 2px;
-	min-height: 21px;
-	min-width: 18px;
 }
 
 .scan-complete-v2 .googlecouk-4 {
 	letter-spacing: 0.2px;
 	margin-top: 19px;
-	min-height: 21px;
-	min-width: 59px;
 }
 
 .scan-complete-v2 .flex-row-1 {
