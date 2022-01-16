@@ -110,12 +110,9 @@
 }
 
 .scan-complete-v2 .group-7 {
-	align-self: center;
-	height: 326px;
 	margin-top: 16px;
 	opacity: 0;
 	transform: translate(25px, 0);
-	width: 291px;
 	z-index: 3;
 }
 
@@ -146,19 +143,12 @@
 	background-image: url(../img/image-2@2x.png);
 	background-position: 50% 50%;
 	background-size: cover;
-	display: flex;
-	height: 326px;
-	left: 0;
-	min-width: 291px;
-	padding: 0 2px;
-	position: absolute;
-	top: 0;
 }
 
 .scan-complete-v2 .image-1 {
-	height: 320px;
+	height: auto;
 	object-fit: cover;
-	width: 287px;
+	width: 100%;
 }
 
 .scan-complete-v2 .group-6 {
@@ -168,11 +158,12 @@
 	display: flex;
 	height: 61px;
 	justify-content: flex-end;
-	left: 115px;
+	transform: translate(-50%, -50%);
+	left: 50%;
 	min-width: 61px;
 	padding: 11px;
 	position: absolute;
-	top: 133px;
+	top: 50%;
 }
 
 .scan-complete-v2 .checkmark {
@@ -249,6 +240,7 @@
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+	margin-bottom: 14px;
 }
 
 .scan-complete-v2 .googlecouk-1 {
@@ -278,29 +270,29 @@
 }
 
 .scan-complete-v2 .flex-row-1 {
-	align-items: center;
-	align-self: center;
 	display: flex;
-	margin-right: 12px;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 	margin-top: 12px;
-	min-width: 321px;
 	z-index: 1;
+	width: 100%;
 }
 
 .scan-complete-v2 .frame-30 {
 	background-color: var(--royal-blue);
 	border-radius: 4px;
-	height: 41px;
+	letter-spacing: 0.28px;
+	border: none;
 	opacity: 0;
-	position: relative;
 	transform: scale(0.9);
-	width: 184px;
 }
 
 .scan-complete-v2 .frame-30.animate-enter21 {
 	animation: animate-enter21-frames 0.9s ease-in-out 0s 1 normal forwards;
 	opacity: 0;
 	transform: scale(0.9);
+	padding: 6px 11px 7px 11px;
 }
 
 @keyframes animate-enter21-frames {
@@ -314,17 +306,9 @@
 	}
 }
 
-.scan-complete-v2 .not-good-scan-again {
-	left: 10px;
-	letter-spacing: 0.28px;
-	position: absolute;
-	top: 10px;
-}
-
 .scan-complete-v2 .googlecouk-5 {
 	letter-spacing: 0.2px;
 	margin-left: 23px;
-	min-height: 21px;
 	min-width: 114px;
 	opacity: 0;
 	text-decoration: underline;
