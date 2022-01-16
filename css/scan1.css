@@ -1,11 +1,18 @@
 /* screen - scan1 */
 
 .scan1 .overlap-group2 {
-	align-self: flex-start;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 	height: 252px;
-	position: relative;
-	width: 406px;
+	width: 100%;
 	z-index: 2;
+}
+.scan1 .first {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	z-index: 3;
 }
 
 .scan1 .scan-your-feet {
@@ -68,22 +75,12 @@
 	}
 }
 
-.scan1 .overlap-group1 {
+.scan1 .second {
 	height: 252px;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 406px;
 }
 
 .scan1 .image {
-	height: 155px;
-	left: 191px;
-	opacity: 0;
-	position: absolute;
-	top: 92px;
 	transform: translate(25px, 0);
-	width: 160px;
 }
 
 .scan1 .image.animate-enter4 {
@@ -115,7 +112,6 @@
 	border-radius: 77.56px;
 	height: 155px;
 	left: 6px;
-	position: absolute;
 	top: 0;
 	width: 155px;
 }
@@ -149,13 +145,8 @@
 }
 
 .scan1 .shoes-snickers-1 {
-	display: block;
 	height: 220px;
-	left: 151px;
-	object-fit: cover;
 	opacity: 0;
-	position: absolute;
-	top: 32px;
 	transform: translate(25px, 0);
 	width: 256px;
 }
